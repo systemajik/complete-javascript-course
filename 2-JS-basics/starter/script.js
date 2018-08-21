@@ -1,6 +1,6 @@
 // 1.1 Variables
 
-/*
+
 
 var name = 'Lloyd';
 var lastName = 'Rees';
@@ -406,7 +406,7 @@ jane['lastName'] = 'Smith';
 console.log(jane);
 
 
-*/
+
 
 
 //
@@ -421,7 +421,7 @@ console.log(jane);
 //
 //
 
-/*
+
 
 //Methods are objects and functions combined
 
@@ -441,7 +441,7 @@ var john = {
 john.calcAge();
 console.log(john);
 
-*/
+
 
 
 //
@@ -455,7 +455,7 @@ console.log(john);
 //
 //
 //
-/*
+
 var Ben = {
   fullName: 'Ben Smith',
   mass: 76,
@@ -504,12 +504,12 @@ if (Susan.calcBmi() > Ben.calcBmi()) {
     console.log(i);
   }
 
-*/
+
 //Part 1 - initial value of counter, starting point (var i = 0)
 //Part 2 - Condition, carry on looping until 10 (i < 10)
 //Part 3 - What to do with each loop, add 1 (i++)
 
-/*
+
 var john = ['John', 'Smith', 1990, false];
 
 for (var i = 0; i < john.length; i++) {
@@ -523,9 +523,9 @@ while(i < john.length) {
   console.log(john[i]);
   i++;
 }
-*/
 
-/*
+
+
 //continue statement
 
 var john = ['John', 'Smith', 1990, false, 'Designer'];
@@ -549,7 +549,7 @@ for (var i = 0; i < john.length; i++) {
 for (var i = john.length -1; i >= 0; i--) {
   console.log(john[i]);
 }
-*/
+
 
 //
 //
@@ -562,7 +562,7 @@ for (var i = john.length -1; i >= 0; i--) {
 //
 //
 //
-/*
+
 
 var john = {
   fullName: 'John Smith',
@@ -623,7 +623,7 @@ john.average = calcAverage(john.tip);               // creating the object prope
 mark.average = calcAverage(mark.tip);
 console.log(john, mark);
 
-*/
+
 //
 //
 //
